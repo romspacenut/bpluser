@@ -19,6 +19,11 @@
             "email": "bishwo.prasad@gmail.com"
         }
     ],
+    "repositories" : [{
+            "type" : "git",
+            "url" : "git@github.com:romspacenut/zf3-circlical-user.git"
+        }
+    ],
     "require": {
         "php": "^7",
         "zendframework/zend-captcha": "^2",
