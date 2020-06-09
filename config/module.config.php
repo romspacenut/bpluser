@@ -53,7 +53,9 @@ return [
             __NAMESPACE__ . '_driver' => [
                 'class' => \Doctrine\ORM\Mapping\Driver\AnnotationDriver::class,
                 'cache' => 'array',
-                'paths' => __DIR__ . '/../src/Entity',
+                'paths' => [
+                    __DIR__ . '/../src/Entity'
+                ],
             ],
             'orm_default' => [
                 'drivers' => [
