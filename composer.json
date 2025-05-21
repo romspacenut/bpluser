@@ -3,7 +3,8 @@
     "description": "An user registration and authentication module for ZF3 based on saeven/zf3-circlical-user",
     "type": "library",
     "homepage": "https://github.com/bishwopl/bpl-user",
-    "keywords": [
+    "keywords":
+    [
         "user",
         "zf3",
         "user management",
@@ -13,29 +14,34 @@
         "auth",
         "registration"
     ],
-    "authors": [
+    "authors":
+    [
         {
             "name": "Bishwo Prasad Lamichhane",
             "email": "bishwo.prasad@gmail.com"
         }
     ],
-    "repositories" : [{
-            "type" : "git",
-            "url" : "git@github.com:romspacenut/zf3-circlical-user.git"
+    "repositories":
+    [
+        {
+            "type": "git",
+            "url": "git@github.com:romspacenut/zf3-circlical-user.git"
         }
     ],
-    "require": {
-        "php": "^7",
+    "require":
+    {
+        "php": "^8",
         "zendframework/zend-captcha": "^2",
         "zendframework/zend-text": "^2",
         "zendframework/zend-filter": "^2",
         "zendframework/zend-i18n": "^2",
         "phpmailer/phpmailer": "^5 || ^6",
         "saeven/zf3-circlical-user": "dev-feature/upgrade_doctrine"
-
     },
-    "autoload": {
-        "psr-4": {
+    "autoload":
+    {
+        "psr-4":
+        {
             "BplUser\\": "src"
         }
     }
